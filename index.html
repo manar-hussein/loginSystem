@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+    <section id="logIn" class="vh-100 d-flex justify-content-center align-items-center overflow-auto">
+        <div class="container d-flex justify-content-center">
+        
+           
+    <div class="cont p-5">
+        <div class="title text-center pb-4">
+            <h1 class="text-white fw-bolder fst-italic fs-2">Smart Login System</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="formArea">
+                   <div id="signUp" class="d-block">
+                    <input type="text" name="userName" class="form-control mb-3  mx-auto bg-transparent text-white" placeholder="Enter Your Name">
+                    <p class="text-danger fw-bold d-none" id="guidName">Your Name must start with Capital Character</p>
+                    <input type="email" name="userEmail" class="form-control my-3  mx-auto bg-transparent text-white" placeholder="Enter Your Email">
+                    <p class="text-danger fw-bold d-none" id="oldEmail">Your Email is already used .. Choose another email</p>
+                    <p class="text-danger fw-bold d-none" id="guidEmail">invalid Email</p>
+                    <input type="password" name="userPasswor" class="form-control my-3  mx-auto bg-transparent text-white" placeholder="Enter Your password">
+                    <p class="text-danger fw-bold d-none" id="guidPassword">Password must contains capital charcter and spcial character</p>
+                   <div class="signUp">
+                    <button class="btn w-100 border border-3 text-white fw-bold BtnSignUp my-2">Sign Up</button>
+                    <p class="text-white text-center py-4 d-flex justify-content-center align-items-center">You have an account? <span class="btn bg-transparent signInBtn text-white rounded-0 border-0 p-0 m-0">Signin</span></p>
+                   </div>
+                   </div>
+                    <div class="login d-none">
+                        <input type="email" name="email" class="form-control my-3  mx-auto bg-transparent text-white" placeholder="Enter Your Email">
+                       <p class="text-danger fw-bold d-none" id="wrongEmail">wrong Email</p>
+                       <input type="password" name="password" class="form-control my-3  mx-auto bg-transparent text-white" placeholder="Enter Your password">
+                      <p class="text-danger fw-bold d-none" id="password">invalid Password</p>
+                        <button class="btn w-100 border loginBtn border-3 text-white fw-bold my-2">Login</button>
+                    <p class="text-white text-center py-4 d-flex justify-content-center align-items-center">Don’t have an account? <span class="btn bg-transparent signUpBtn text-white rounded-0 border-0 p-0 m-0">Sign Up</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+           
+
+        </div>
+
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./JS/bootstrap.bundle.js"></script>
+    <script src="./JS/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+:root{
+    --mainColor--:#24353f;
+    --secondaruColor:#17a2b8;
+    --mainFont--: 'Playfair Display', serif;
+}
+body{
+  font-family: var(--mainFont--);
+}
+
+#logIn{
+    background-color: var(--mainColor--);
+    font-family:var(--mainFont--)
+}
+#logIn .container .cont{
+    box-shadow: 0px 0px 60px black;
+    color: white;
+    width: 60%;
+}
+input::placeholder {
+   color: white !important;
+  }
+  #logIn .container .cont button{
+    border-color: var(--secondaruColor) !important;
+    
+  }
+  #logIn .container .cont button:hover{
+    background-color: var(--secondaruColor) !important;
+  }
+  #logIn .container .formArea p span:hover{
+   border-bottom:1px solid white !important;
+  }
+
+ 
